@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: crimson;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    border-radius: 0 0 30px 30px;
+    margin: 0 60px;
+    height: 100px;
+    
+}
+
+
+
+.logo {
+    font-size: 40px;
+    font-style: oblique;
+    padding: 5px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+
+}
+
+nav ul li {
+    padding: 15px 30px;
+    font-size: 20px;
+    font-family: 'Spicy Rice', serif;
+}
+
+.sambutan {
+    padding: 20px 0px 0px 60px;
+    font-size: 40px;
+    font-family: 'Spicy Rice', serif;
+}
+
+.sambutan button {
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 5px 3px gray;
+    font-family: 'Spicy Rice', serif;
+    width: 200px;
+}
+
+.sambutan img {
+    width: 450px;
+    float: right;
+    padding-right: 70px;
+    border-radius: 15px 80px;
+    background: crimson;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+
+}
+
+.potodoang img {
+    width: 350px;
+    padding-left: 60px;
+    padding-top: 50px;
+    border-radius: 50% 50% 0 0;
+    background-color: crimson;
+}
+
+.servis {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: wheat;
+}
+
+.servis h3 {
+    font-size: 35px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.servis h4 {
+    font-size: 30px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.konsul {
+    display: flex;
+    justify-content: space-around;
+    background-color: wheat;
+    padding-bottom: 3rem;
+}
+
+
+.konsul1 img {
+    width: 150px;
+}
+
+.konsul1 {
+    display: flex;
+    align-items: center;
+}
+
+.konsul2 img {
+    width: 150px;
+}
+
+.konsul2 {
+    display: flex;
+    align-items: center;
+}
+
+.konsul3 img {
+    width: 150px;
+}
+
+.konsul3 {
+    display: flex;
+    align-items: center;
+
+}
+
+.konsul h5 {
+    font-size: 20px;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+.konsul p {
+    font-size: 15px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.sejajar {
+    margin-left: 20px;
+}
+
+.sejajar2 {
+    margin-left: 20px;
+}
+
+.sejajar3 {
+    margin-left: 20px;
+}
+
+main h4 {
+    display: flex;
+    justify-content: center;
+}
+.kripcax h4 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.poto1 img {
+    width: 200px;
+
+}
+
+.poto1 img {
+    display: flex;
+}
+
+.poto1 p {
+    background-color: white;
+    font-family: 'Fjalla One', sans-serif;
+    padding-left: 10px;
+
+}
+
+.kripcax {
+    padding-top: 2rem;
+}
+
+.sedjajar {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.sedjajar2 {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.tulisankorsi h6 {
+    font-size: 30px;
+
+}
+
+.tulisankorsi p {
+    font-size: 20px;
+}
+
+.tulisankorsi button {
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: 5px 3px gray;
+    font-family: 'Spicy Rice', serif;
+}
+
+
+
+
+.provide {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    background-color: wheat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+}
+
+.provide img {
+    width: 300px;
+   
+}
+
+footer {
+    margin-bottom: 80px;
+    display: flex;
+    background-color: brown;
+}
+
+
+
+.sbelahkiri {
+    margin-left: 50px;
+}
+
+.sbelahkiri p {
+    font-size: 20px;
+}
+
+.symbol  {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+.symbol span {
+    color: gray;
+}
+
+.sosmed {
+    display: flex;
+   
+ 
+}
+
+.tiktok {
+    margin-right: 40px;
+    background-color: white;
+    width: 30px;
+    justify-content: center;
+    display: flex;
+    border-radius: 50px;
+   
+   
+}
+
+.instagram {
+margin-right: 40px;
+background-color: white;
+justify-content: center;
+display: flex;
+width: 30px;
+border-radius: 50px;
+
+}
+
+.youtube {
+    margin-right: 40px;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    width: 30px;
+    border-radius: 50px;
+   
+}
+
+.facebook {
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    width: 30px;
+    border-radius: 50px;
+ 
+}
+
+.trisejajar {
+    display: flex;
+    gap: 0 200px;
+
+}
+
+
+.hom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 200px;
+
+}
+
+.helep {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
